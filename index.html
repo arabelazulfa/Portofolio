@@ -7,6 +7,7 @@
     <title>Portofolio Magang</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
     <style>
         html {
             scroll-behavior: smooth;
@@ -233,59 +234,130 @@
         </div>
     </section>
 
-    <section id="project" class="py-20 px-6">
+    <section id="project" class="py-20 px-6 bg-gray-50">
         <div class="container mx-auto">
             <h2 class="text-3xl font-bold text-center mb-12 text-gray-800">Proyek</h2>
 
             <div class="grid md:grid-cols-2 gap-8">
+                <!-- Proyek 1 -->
                 <div
-                    class="bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition duration-300 transform hover:-translate-y-1">
+                    class="bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition transform hover:-translate-y-1">
+                    <div class="swiper mySwiper1 mb-4 rounded-lg overflow-hidden">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="grid grid-cols-2 gap-2">
+                                    <img src="images/umkm1.jpg" alt="UMKM 1" class="w-full h-64 object-cover">
+                                    <img src="images/umkm2.png" alt="UMKM 2" class="w-full h-64 object-cover">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+
                     <h3 class="text-xl font-semibold mb-2 text-blue-600">Aplikasi UMKM</h3>
-                    <p class="text-gray-700 mb-4">
-                        Membangun Aplikasi yang menghubungkan UMKM dengan konsumen melalui media digital secara
-                        langsung.
-                    </p>
+                    <p class="text-gray-700 mb-4">Membangun Sistem Basis Data menggunakan SQL untuk aplikasi yang
+                        menghubungkan UMKM dengan konsumen melalui
+                        media digital secara langsung.</p>
                     <span class="inline-block bg-blue-100 text-blue-800 text-sm px-3 py-1 rounded-full">Basis
                         Data</span>
                 </div>
-                <div class="bg-white p-6 rounded-xl shadow-md">
+
+                <!-- Proyek 2 -->
+                <div
+                    class="bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition transform hover:-translate-y-1">
+                    <div class="swiper mySwiper1 mb-4 rounded-lg overflow-hidden">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="grid grid-cols-2 gap-2">
+                                    <img src="images/sewain1.png" alt="SewaIn 1" class="w-full h-64 object-cover">
+                                    <img src="images/sewain2.png" alt="SewaIn 2" class="w-full h-64 object-cover">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div>
                     <h3 class="text-xl font-semibold mb-2 text-blue-600">Startup Aplikasi Sewa.In</h3>
-                    <p class="text-gray-700 mb-4">
-                        Pengembangan startup aplikasi penyewaan barang dan perancangan mockup aplikasi menggunakan
-                        prototype figma serta melakukan user testing untuk mengetahui kebutuhan pengguna.
-                    </p>
+                    <p class="text-gray-700 mb-4">Pengembangan startup aplikasi penyewaan barang dan perancangan mockup
+                        aplikasi menggunakan Figma serta melakukan user testing.</p>
                     <span class="inline-block bg-blue-100 text-blue-800 text-sm px-3 py-1 rounded-full">UI/UX</span>
                 </div>
-                <div class="bg-white p-6 rounded-xl shadow-md">
-                    <h3 class="text-xl font-semibold mb-2 text-blue-600">Aplikasi berbasis web - WeCare</h3>
-                    <p class="text-gray-700 mb-4">
-                        Proyek pengembangan perangkat lunak berbasis web untuk manajemen relawan dan organisasi yang
-                        dibangun menggunakan Laravel.
-                    </p>
+
+                <!-- Proyek 3 -->
+                <div
+                    class="bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition transform hover:-translate-y-1">
+                    <div class="swiper mySwiper1 mb-4 rounded-lg overflow-hidden">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="grid grid-cols-2 gap-2">
+                                    <img src="images/wecare1.png" alt="WeCare 1" class="w-full h-64 object-cover">
+                                    <img src="images/wecare3.png" alt="WeCare 2" class="w-full h-64 object-cover">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-2 text-blue-600">Aplikasi Web - WeCare</h3>
+                    <p class="text-gray-700 mb-4">Pengembangan perangkat lunak berbasis web untuk manajemen relawan dan
+                        organisasi menggunakan frontend HTML, CSS, dan Tailwwind serta backend PHP dan framework
+                        Laravel. Disertai juga pembuatan UI/UX menggunakan Figma.</p>
                     <span class="inline-block bg-blue-100 text-blue-800 text-sm px-3 py-1 rounded-full">Fullstack
                         Development</span>
                 </div>
-                <div class="bg-white p-6 rounded-xl shadow-md">
+
+                <!-- Proyek 4 -->
+                <div
+                    class="bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition transform hover:-translate-y-1">
+                    <div class="swiper mySwiper1 mb-4 rounded-lg overflow-hidden">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="grid grid-cols-2 gap-2">
+                                    <img src="images/cafe1.png" alt="Cafe Menu 1" class="w-full h-64 object-cover">
+                                    <img src="images/cafe2.png" alt="Cafe Menu 2" class="w-full h-64 object-cover">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div>
                     <h3 class="text-xl font-semibold mb-2 text-blue-600">Website Menu Cafe</h3>
-                    <p class="text-gray-700 mb-4">
-                        Perancangan dan implementasi website menu cafe dengan desain responsif menggunakan HTML, CSS,
-                        dan JavaScript serta menghubungkan dengan backend menggunakan firebase.
-                    </p>
+                    <a href="https://arabelazulfa.github.io/Website-Menu-Cafe/"
+                        class="text-blue-700 underline mb-4 block" target="_blank" rel="noopener noreferrer">
+                        https://arabelazulfa.github.io/Website-Menu-Cafe/
+                    </a>
+
+                    <p class="text-gray-700 mb-4">Desain responsif website menu cafe menggunakan HTML, CSS, JavaScript
+                        dan backend Firebase.</p>
                     <span class="inline-block bg-blue-100 text-blue-800 text-sm px-3 py-1 rounded-full">Frontend
                         Development</span>
                 </div>
-                <div class="bg-white p-6 rounded-xl shadow-md">
+
+                <!-- Proyek 5 -->
+                <div
+                    class="bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition transform hover:-translate-y-1">
+                    <div class="swiper mySwiper1 mb-4 rounded-lg overflow-hidden">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="grid grid-cols-1 gap-2">
+                                    <img src="images/prediction1.png" alt="Prediksi Churn 1"
+                                        class="w-full h-64 object-cover">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div>
                     <h3 class="text-xl font-semibold mb-2 text-blue-600">Prediksi Churn Pelanggan</h3>
-                    <p class="text-gray-700 mb-4">
-                        Pengembangan model machine learning untuk memprediksi churn pelanggan menggunakan Python dan
-                        library scikit-learn.
-                    </p>
+                    <a href="https://prediksichurnpelanggan.streamlit.app/"
+                        class="text-blue-700 underline mb-4 block" target="_blank" rel="noopener noreferrer">
+                        https://prediksichurnpelanggan.streamlit.app/
+                    </a>
+                    <p class="text-gray-700 mb-4">Pengembangan model machine learning untuk memprediksi churn pelanggan
+                        menggunakan dataset pelanggan yang ada serta menggunakan Python & scikit-learn.</p>
                     <span class="inline-block bg-blue-100 text-blue-800 text-sm px-3 py-1 rounded-full">Data
                         Science</span>
                 </div>
             </div>
         </div>
     </section>
+
 
     <section id="sertifikat" class="py-20 px-6 bg-gray-100">
         <div class="container mx-auto">
@@ -302,7 +374,8 @@
                     <p class="text-sm text-gray-500">Februari 2025</p>
                 </div>
                 <div class="bg-white p-6 rounded-xl shadow-md">
-                    <div class="text-blue-600 text-4xl mb-4 bg-blue-50 w-16 h-16 rounded-full flex items-center justify-center mx-auto">
+                    <div
+                        class="text-blue-600 text-4xl mb-4 bg-blue-50 w-16 h-16 rounded-full flex items-center justify-center mx-auto">
                         <i class="fas fa-certificate"></i>
                     </div>
                     <h3 class="text-xl font-semibold mb-2">HCIA-AI V3.5 Course</h3>
@@ -310,7 +383,8 @@
                     <p class="text-sm text-gray-500">April 2025</p>
                 </div>
                 <div class="bg-white p-6 rounded-xl shadow-md">
-                    <div class="text-blue-600 text-4xl mb-4 bg-blue-50 w-16 h-16 rounded-full flex items-center justify-center mx-auto">
+                    <div
+                        class="text-blue-600 text-4xl mb-4 bg-blue-50 w-16 h-16 rounded-full flex items-center justify-center mx-auto">
                         <i class="fas fa-certificate"></i>
                     </div>
                     <h3 class="text-xl font-semibold mb-2">AI BASICS: OVERVIEW OF AI</h3>
@@ -318,7 +392,8 @@
                     <p class="text-sm text-gray-500">April 2025</p>
                 </div>
                 <div class="bg-white p-6 rounded-xl shadow-md">
-                    <div class="text-blue-600 text-4xl mb-4 bg-blue-50 w-16 h-16 rounded-full flex items-center justify-center mx-auto">
+                    <div
+                        class="text-blue-600 text-4xl mb-4 bg-blue-50 w-16 h-16 rounded-full flex items-center justify-center mx-auto">
                         <i class="fas fa-certificate"></i>
                     </div>
                     <h3 class="text-xl font-semibold mb-2">Introduction to Generative AI</h3>
@@ -326,7 +401,8 @@
                     <p class="text-sm text-gray-500">Mei 2025</p>
                 </div>
                 <div class="bg-white p-6 rounded-xl shadow-md">
-                    <div class="text-blue-600 text-4xl mb-4 bg-blue-50 w-16 h-16 rounded-full flex items-center justify-center mx-auto">
+                    <div
+                        class="text-blue-600 text-4xl mb-4 bg-blue-50 w-16 h-16 rounded-full flex items-center justify-center mx-auto">
                         <i class="fas fa-certificate"></i>
                     </div>
                     <h3 class="text-xl font-semibold mb-2">Introduction to Copilot For Microsoft 365</h3>
@@ -334,7 +410,8 @@
                     <p class="text-sm text-gray-500">Mei 2025</p>
                 </div>
                 <div class="bg-white p-6 rounded-xl shadow-md">
-                    <div class="text-blue-600 text-4xl mb-4 bg-blue-50 w-16 h-16 rounded-full flex items-center justify-center mx-auto">
+                    <div
+                        class="text-blue-600 text-4xl mb-4 bg-blue-50 w-16 h-16 rounded-full flex items-center justify-center mx-auto">
                         <i class="fas fa-certificate"></i>
                     </div>
                     <h3 class="text-xl font-semibold mb-2">Get Started Building With Power BI</h3>
@@ -342,7 +419,8 @@
                     <p class="text-sm text-gray-500">Mei 2025</p>
                 </div>
                 <div class="bg-white p-6 rounded-xl shadow-md">
-                    <div class="text-blue-600 text-4xl mb-4 bg-blue-50 w-16 h-16 rounded-full flex items-center justify-center mx-auto">
+                    <div
+                        class="text-blue-600 text-4xl mb-4 bg-blue-50 w-16 h-16 rounded-full flex items-center justify-center mx-auto">
                         <i class="fas fa-certificate"></i>
                     </div>
                     <h3 class="text-xl font-semibold mb-2">Explore Generative AI</h3>
@@ -350,7 +428,8 @@
                     <p class="text-sm text-gray-500">Mei 2025</p>
                 </div>
                 <div class="bg-white p-6 rounded-xl shadow-md">
-                    <div class="text-blue-600 text-4xl mb-4 bg-blue-50 w-16 h-16 rounded-full flex items-center justify-center mx-auto">
+                    <div
+                        class="text-blue-600 text-4xl mb-4 bg-blue-50 w-16 h-16 rounded-full flex items-center justify-center mx-auto">
                         <i class="fas fa-certificate"></i>
                     </div>
                     <h3 class="text-xl font-semibold mb-2">Overview of AI</h3>
@@ -358,7 +437,8 @@
                     <p class="text-sm text-gray-500">Juni 2025</p>
                 </div>
                 <div class="bg-white p-6 rounded-xl shadow-md">
-                    <div class="text-blue-600 text-4xl mb-4 bg-blue-50 w-16 h-16 rounded-full flex items-center justify-center mx-auto">
+                    <div
+                        class="text-blue-600 text-4xl mb-4 bg-blue-50 w-16 h-16 rounded-full flex items-center justify-center mx-auto">
                         <i class="fas fa-certificate"></i>
                     </div>
                     <h3 class="text-xl font-semibold mb-2">Getting Started in Google Analytics</h3>
@@ -464,6 +544,14 @@
             });
         });
     </script>
+    <script>
+        const swiper1 = new Swiper(".mySwiper1", { loop: true, pagination: { el: ".swiper-pagination", clickable: true } });
+        const swiper2 = new Swiper(".mySwiper2", { loop: true, pagination: { el: ".swiper-pagination", clickable: true } });
+        const swiper3 = new Swiper(".mySwiper3", { loop: true, pagination: { el: ".swiper-pagination", clickable: true } });
+        const swiper4 = new Swiper(".mySwiper4", { loop: true, pagination: { el: ".swiper-pagination", clickable: true } });
+        const swiper5 = new Swiper(".mySwiper5", { loop: true, pagination: { el: ".swiper-pagination", clickable: true } });
+    </script>
+
 </body>
 
 </html>
